@@ -183,12 +183,12 @@ p {
   border: 0px;
 }
 button:hover {
-  color: var(--hover-color);
-  background-color: var(--bg-color);
+  color: var(--text-focus-color);
+  background-color: #188ce8;
 }
 button:focus {
-  color: var(--hover-color);
-  background-color: var(--bg-color);
+  color: var(--text-focus-color);
+  background-color: #188ce8;
 }
 .button-portfolio {
   color: var(--title-color);
@@ -353,6 +353,7 @@ button:focus {
   margin-bottom: 10px;
 }
 .section-comand .item {
+  background-color: var(--bg-color);
   padding-bottom: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -485,7 +486,6 @@ button:focus {
 }
 .name {
   padding: 20px 24px;
-
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
@@ -502,12 +502,10 @@ button:focus {
   display: block;
 }
 .portfolio-psevdo-link:focus {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio-psevdo-link:hover {
-  border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -546,7 +544,7 @@ footer .item:not(:last-child) {
 .footer .soc-link {
   background: rgba(255, 255, 255, 0.1);
 }
-.footer.soc-link:focus {
+.footer .soc-link:focus {
   background-color: var(--focus-color);
 }
 .footer .soc-link:hover {
